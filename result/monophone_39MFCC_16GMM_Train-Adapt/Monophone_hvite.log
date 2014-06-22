@@ -1,0 +1,1 @@
+HVite -A -o N -C lib\MFCC_config2.txt -H models\monophone_39MFCC_16GMM_Train-Adapt\hmm15\hmmdefs -S scripts\TestClean.scp -i result\monophone_39MFCC_16GMM_Train-Adapt\Monophone_recout.mlf -w dictionary\phnet -s 2.0 -p -25.0 dictionary\phDict monophones1 
